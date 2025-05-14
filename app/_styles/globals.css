@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@layer utilities {
+  .ball {
+    @apply absolute w-6 h-6 rounded-full z-0;
+  }
+
+  @keyframes ball1 {
+    0%,
+    100% {
+      transform: rotate(0deg) skewX(0deg);
+    }
+    50% {
+      transform: rotate(180deg) skewX(20deg);
+    }
+  }
+  @keyframes ball2 {
+    0%,
+    100% {
+      transform: rotate(0deg) skewY(0deg);
+    }
+    50% {
+      transform: rotate(-180deg) skewY(-20deg);
+    }
+  }
+  @keyframes ball3 {
+    0%,
+    100% {
+      transform: rotate(0deg) skew(0deg, 0deg);
+    }
+    50% {
+      transform: rotate(120deg) skew(15deg, 10deg);
+    }
+  }
+  @keyframes ball4 {
+    0%,
+    100% {
+      transform: rotate(0deg) skew(0deg, 0deg);
+    }
+    50% {
+      transform: rotate(-120deg) skew(-15deg, -10deg);
+    }
+  }
+  @keyframes ball5 {
+    0%,
+    100% {
+      transform: rotate(0deg) skewX(0deg);
+    }
+    50% {
+      transform: rotate(360deg) skewX(30deg);
+    }
+  }
+  @keyframes ball6 {
+    0%,
+    100% {
+      transform: rotate(0deg) skewY(0deg);
+    }
+    50% {
+      transform: rotate(-360deg) skewY(-30deg);
+    }
+  }
+
+  .animate-ball1 {
+    animation: ball1 5s ease-in-out infinite;
+  }
+  .animate-ball2 {
+    animation: ball2 6s ease-in-out infinite;
+  }
+  .animate-ball3 {
+    animation: ball3 7s ease-in-out infinite;
+  }
+  .animate-ball4 {
+    animation: ball4 4s ease-in-out infinite;
+  }
+  .animate-ball5 {
+    animation: ball5 8s ease-in-out infinite;
+  }
+  .animate-ball6 {
+    animation: ball6 6.5s ease-in-out infinite;
+  }
+}
