@@ -6,7 +6,7 @@ export default function SignInButton() {
       <div className="absolute w-[30px] h-[30px] bottom-1/3 right-1/3 bg-[#F7BCE9] rounded-[500px] animate-ball2 -z-0" />
 
       <button className="relative z-10  W-[99] H-[45] text-black opacity-50 bg-[#FFFFFF] rounded-[30px] backdrop-blur-[10PX]">
-        Click Me
+        Sign In
       </button>
     </div>
   );

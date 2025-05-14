@@ -11,7 +11,7 @@ export default function CTAButton() {
     <div className="relative w-[166px] h-[45px] flex items-center justify-center m-auto">
       {/* Central Button */}
       <button
-        className={`relative z-10 w-[166px] h-[45px] backdrop-blur-[30px] rounded-[30px] fill-[#000000] opacity-50 text-[#FFFFFF] ${inter.className}`}
+        className={`relative z-10 w-[166px] h-[45px] backdrop-blur-[50px] rounded-[30px] fill-[#000000] opacity-50 text-[#FFFFFF] ${inter.className}`}
       >
         Try Demo
       </button>
